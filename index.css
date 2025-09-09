@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #1e40af;
+  --brand-accent: #22c55e;
+}
+body { font-family: 'Inter', sans-serif; }
+.btn-primary { background: var(--brand-primary); color: white; }
+.btn-accent { background: var(--brand-accent); color: white; }
+.text-primary { color: var(--brand-primary); }
+.border-primary { border-color: var(--brand-primary); }
+.bg-primary { background: var(--brand-primary); }

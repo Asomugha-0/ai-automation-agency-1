@@ -1,0 +1,1 @@
+export default function Privacy(){return <div className='p-6 prose max-w-3xl'><h1>Privacy Policy</h1><p>Update with your policy details.</p></div>}
